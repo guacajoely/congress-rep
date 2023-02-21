@@ -1,0 +1,69 @@
+body{
+    background-color: lightgrey;
+    color: black;
+    font: 20px sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    box-shadow: 4px 4px 4px 0px dimgrey;
+}
+
+.info {
+    font-weight: bold;
+    margin: 20px;
+}
+
+
+ul {
+    list-style: none; 
+    padding: 0;
+    text-align: start;
+    margin: 10px;
+    font-weight: bold;
+    width: 700px;
+}
+
+li {
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+a:link {
+    color: dimgray;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: dimgray;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: dimgrey;
+    text-decoration: underline;
+  }
+
+  .committees {
+    margin: 30px;
+  }
+
+  .legislation {
+    margin-bottom: 30px;
+  }
+
+
+
